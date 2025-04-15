@@ -5,7 +5,6 @@ var crossvent = require('crossvent');
 var classes = require('./classes');
 var doc = document;
 var documentElement = doc.documentElement;
-var $ = require('../jquery')
 var isRightClick = false;
 
 function dragula(initialContainers, options) {
